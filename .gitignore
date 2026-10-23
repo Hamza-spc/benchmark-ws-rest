@@ -1,0 +1,28 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# macOS
+.DS_Store
+
+# Logs et artefacts de mesure
+*.log
+report/results/.stop-monitor
+tools/__pycache__/
+jmeter/bin/
